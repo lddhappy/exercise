@@ -4,6 +4,9 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * 时间计算服务
+ */
 public class TimeService {
     private static final String YEAR = "2021:";
     private static final String TIME_FORMATTER = "yyyy:MM:dd:HH:mm:ss";

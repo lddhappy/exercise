@@ -8,6 +8,9 @@ import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 图书解析存储服务
+ */
 public class LibraryService {
     private String fullPath;
     private byte[] fileContent;
